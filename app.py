@@ -1,4 +1,5 @@
 import os
+import sys
 from dotenv import load_dotenv
 from flask import Flask, jsonify, request
 from scraper import scrape_linkedin
@@ -22,3 +23,7 @@ def scrape():
         "success": True,
         "jobs": jobs
     })
+
+@app.route("/python-version")
+def python_version():
+    return sys.version
