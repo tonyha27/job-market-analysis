@@ -24,6 +24,10 @@ def scrape():
         "jobs": jobs
     })
 
+@app.route("/", methods=[GET])
+def home():
+    return "Scraper API is running!"
+
 @app.route("/python-version")
 def python_version():
     return sys.version
