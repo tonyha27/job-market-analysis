@@ -8,7 +8,7 @@ load_dotenv()
 
 app = Flask(__name__)
 
-API_KEY = os.getenv('SCRAPER_API_KEY')
+API_KEY = os.getenv("SCRAPER_API_KEY")
 
 @app.route("/scrape", methods=["POST"])
 def scrape():

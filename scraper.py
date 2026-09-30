@@ -14,7 +14,10 @@ def scrape_linkedin(num_jobs, delay, testing):
     # Initializing the webdriver.
     options = webdriver.ChromeOptions()
     if not testing:
-        options.add_argument('--headless')
+        options.add_argument("--headless")
+        options.add_argument("--no-sandbox")
+        options.add_argument("--disable-dev-shm-usage")
+        options.add_argument("--disable-gpu")
     driver = webdriver.Chrome(options=options)
     driver.maximize_window()
 
@@ -40,7 +43,7 @@ def scrape_linkedin(num_jobs, delay, testing):
     job_search_box = driver.find_element(By.XPATH, "//input[@aria-label='Search job titles or companies']")
     job_search_box.clear()
     time.sleep(delay)
-    job_search_box.send_keys('Data OR Analyst')
+    job_search_box.send_keys("Data OR Analyst")
     time.sleep(delay)
 
     # Clear the location search box and input "Australia" then hit enter.
@@ -109,14 +112,14 @@ def scrape_linkedin(num_jobs, delay, testing):
             salary = 'Unavailable'
 
         # Add the job to 'jobs'.
-        jobs.append({'Date': date,
-                     'Title': title,
-                     'Company Name': company,
-                     'Location': location,
-                     'Industry': industry,
-                     'Employment type': employment_type,
-                     'Description': description,
-                     'Salary': salary})
+        jobs.append({"Date": date,
+                     "Title": title,
+                     "Company Name": company,
+                     "Location": location,
+                     "Industry": industry,
+                     "Employment type": employment_type,
+                     "Description": description,
+                     "Salary": salary})
 
         # Printing for debugging.
         if testing:
