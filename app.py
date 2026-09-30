@@ -24,7 +24,7 @@ def scrape():
         "jobs": jobs
     })
 
-@app.route("/", methods=[GET])
+@app.route("/", methods=["GET"])
 def home():
     return "Scraper API is running!"
 
