@@ -17,7 +17,7 @@ def scrape():
             "success": False,
             "error": "Unauthorized"
         }), 401
-    jobs = scrape_linkedin(num_jobs=10, delay=3, testing=True)
+    jobs = scrape_linkedin(num_jobs=10, delay=3, testing=False)
 
     return jsonify({
         "success": True,
