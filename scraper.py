@@ -12,6 +12,9 @@ def scrape_linkedin(num_jobs, delay, testing):
     '''Gathers jobs as a dataframe, scraped from LinkedIn'''
     
     # Initializing the webdriver.
+
+    print("Starting Chrome...", flush=True)
+
     options = webdriver.ChromeOptions()
     if not testing:
         options.add_argument("--headless")
@@ -19,10 +22,18 @@ def scrape_linkedin(num_jobs, delay, testing):
         options.add_argument("--disable-dev-shm-usage")
         options.add_argument("--disable-gpu")
     driver = webdriver.Chrome(options=options)
+
+    print("Chrome started.", flush=True)
+
     driver.maximize_window()
+
+    print("Window maximised.", flush=True)
 
     # We start at the homepage since the site may force us to go there anyways.
     driver.get("https://www.linkedin.com/?trk=guest_homepage-basic_nav-header-logo")
+
+    print("Page loaded.", flush=True)
+
     jobs = [] # We store our job listings here. It will be a list of dictionaries.
 
     time.sleep(delay) # The waiting time (in seconds) between requests. Ensure it is high enough to load pages. 

@@ -12,12 +12,18 @@ API_KEY = os.getenv("SCRAPER_API_KEY")
 
 @app.route("/scrape", methods=["POST"])
 def scrape():
+
     if request.headers.get("X-API-Key") != API_KEY:
         return jsonify({
             "success": False,
             "error": "Unauthorized"
         }), 401
+
+    print("Starting scraper...", flush=True)
+    
     jobs = scrape_linkedin(num_jobs=10, delay=3, testing=False)
+
+    print("Scrape finished. Found {len(jobs)} jobs.", flush=True)
 
     return jsonify({
         "success": True,
