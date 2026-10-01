@@ -21,6 +21,9 @@ def scrape_linkedin(num_jobs, delay, testing):
         options.add_argument("--no-sandbox")
         options.add_argument("--disable-dev-shm-usage")
         options.add_argument("--disable-gpu")
+
+    print("Configured Chrome options.", flush=True)
+
     driver = webdriver.Chrome(options=options)
 
     print("Chrome started.", flush=True)
