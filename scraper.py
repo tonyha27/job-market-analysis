@@ -2,6 +2,7 @@ import time
 from selenium import webdriver 
 from selenium.common.exceptions import NoSuchElementException
 from selenium.common.exceptions import TimeoutException
+from selenium.webdriver.chrome.service import Service
 from selenium.webdriver.common.action_chains import ActionChains
 from selenium.webdriver.common.by import By
 from selenium.webdriver.common.keys import Keys
@@ -13,8 +14,6 @@ def scrape_linkedin(num_jobs, delay, testing):
     
     # Initializing the webdriver.
 
-    print("Starting Chrome...", flush=True)
-
     options = webdriver.ChromeOptions()
     if not testing:
         options.add_argument("--headless")
@@ -22,20 +21,12 @@ def scrape_linkedin(num_jobs, delay, testing):
         options.add_argument("--disable-dev-shm-usage")
         options.add_argument("--disable-gpu")
 
-    print("Configured Chrome options.", flush=True)
-
     driver = webdriver.Chrome(options=options)
 
-    print("Chrome started.", flush=True)
-
-    driver.maximize_window()
-
-    print("Window maximised.", flush=True)
+    driver.set_window_size(1920, 1080)
 
     # We start at the homepage since the site may force us to go there anyways.
-    driver.get("https://www.linkedin.com/?trk=guest_homepage-basic_nav-header-logo")
-
-    print("Page loaded.", flush=True)
+    driver.get("https://www.linkedin.com/")
 
     jobs = [] # We store our job listings here. It will be a list of dictionaries.
 
@@ -46,7 +37,7 @@ def scrape_linkedin(num_jobs, delay, testing):
     
     # Wait until the sign-in popup appears then clear it. If it doesn't appear after some time then continue on. 
     try:
-        WebDriverWait(driver, 300).until(lambda d: d.find_element(By.XPATH, "//*[contains(text(), 'Sign in to view more jobs')]").is_displayed()) 
+        WebDriverWait(driver, 30).until(lambda d: d.find_element(By.XPATH, "//*[contains(text(), 'Sign in to view more jobs')]").is_displayed()) 
         time.sleep(delay)
         ActionChains(driver).send_keys(Keys.ESCAPE).perform() 
         time.sleep(delay)
@@ -55,9 +46,13 @@ def scrape_linkedin(num_jobs, delay, testing):
     
     # Input the value in the "keyword" variable inside in job search box.
     job_search_box = driver.find_element(By.XPATH, "//input[@aria-label='Search job titles or companies']")
+
     job_search_box.clear()
+
     time.sleep(delay)
+
     job_search_box.send_keys("Data OR Analyst")
+
     time.sleep(delay)
 
     # Clear the location search box and input "Australia" then hit enter.
@@ -88,7 +83,7 @@ def scrape_linkedin(num_jobs, delay, testing):
     #         break
     #     current_height = new_height
 
-    driver.execute_script("window.scrollTo(0, 0)")
+    # driver.execute_script("window.scrollTo(0, 0)")
 
     time.sleep(delay)
 

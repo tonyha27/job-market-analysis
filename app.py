@@ -23,7 +23,7 @@ def scrape():
     
     jobs = scrape_linkedin(num_jobs=10, delay=3, testing=False)
 
-    print("Scrape finished. Found {len(jobs)} jobs.", flush=True)
+    print(f"Scrape finished. Found {len(jobs)} jobs.", flush=True)
 
     return jsonify({
         "success": True,
