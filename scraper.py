@@ -43,7 +43,7 @@ def scrape_linkedin(num_jobs, delay, testing):
     
     # Wait until the sign-in popup appears then clear it. If it doesn't appear after some time then continue on. 
     try:
-        WebDriverWait(driver, 30).until(lambda d: d.find_element(By.XPATH, "//*[contains(text(), 'Sign in to view more jobs')]").is_displayed()) 
+        WebDriverWait(driver, 5).until(lambda d: d.find_element(By.XPATH, "//*[contains(text(), 'Sign in to view more jobs')]").is_displayed()) 
         time.sleep(delay)
         ActionChains(driver).send_keys(Keys.ESCAPE).perform() 
         print("Closed pop-up", flush=True)
@@ -121,6 +121,7 @@ def scrape_linkedin(num_jobs, delay, testing):
             time.sleep(delay)
 
         job_posting.click() # Click the job listing to open its contents. 
+
         time.sleep(delay)
 
         # Collect information on the job title, location, and description. These should always be available under each job.
