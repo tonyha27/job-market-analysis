@@ -112,6 +112,8 @@ def scrape_linkedin(num_jobs, delay, testing):
 
     for job_posting in job_postings: # Going through each job on the page.
 
+        print(f"Scraping job number {len(jobs)+1}", flush=True)
+
         # Wait until the sign-in popup appears then clear it. If it doesn't appear after some time then continue on. 
         if driver.find_element(By.XPATH, "//*[contains(text(), 'Sign in to view more jobs')]").is_displayed():
             time.sleep(delay)
@@ -143,6 +145,8 @@ def scrape_linkedin(num_jobs, delay, testing):
                      "Employment type": employment_type,
                      "Description": description,
                      "Salary": salary})
+
+        print(f"Scraped job number {len(jobs)}", flush=True)
 
         # Printing for debugging.
         if testing:
