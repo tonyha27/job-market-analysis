@@ -25,8 +25,12 @@ def scrape_linkedin(num_jobs, delay, testing):
 
     driver.set_window_size(1920, 1080)
 
+    print("Set up Chrome", flush=True)
+
     # We start at the homepage since the site may force us to go there anyways.
     driver.get("https://www.linkedin.com/")
+
+    print("Loaded page", flush=True)
 
     jobs = [] # We store our job listings here. It will be a list of dictionaries.
 
@@ -34,6 +38,8 @@ def scrape_linkedin(num_jobs, delay, testing):
 
     # Click on "Jobs" button.
     driver.find_elements(By.XPATH, "//icon[@class='top-nav-link__icon flex h-3 w-3 flex-shrink-0 justify-center lazy-loaded']")[3].click()
+
+    print("Clicked jobs button", flush=True)
     
     # Wait until the sign-in popup appears then clear it. If it doesn't appear after some time then continue on. 
     try:
@@ -43,6 +49,8 @@ def scrape_linkedin(num_jobs, delay, testing):
         time.sleep(delay)
     except TimeoutException: 
         pass
+
+    print("Closed pop-up", flush=True)
     
     # Input the value in the "keyword" variable inside in job search box.
     job_search_box = driver.find_element(By.XPATH, "//input[@aria-label='Search job titles or companies']")
@@ -52,6 +60,8 @@ def scrape_linkedin(num_jobs, delay, testing):
     time.sleep(delay)
 
     job_search_box.send_keys("Data OR Analyst")
+
+    print("Inputted keyword", flush=True)
 
     time.sleep(delay)
 
@@ -63,6 +73,8 @@ def scrape_linkedin(num_jobs, delay, testing):
     time.sleep(delay)
     location_search_box.send_keys(Keys.ENTER)
     time.sleep(delay) 
+
+    print("Inputted location and press Enter", flush=True)
 
     # # Scroll to the bottom of the page until it no longer loads.
     # current_height = driver.execute_script("return document.body.scrollHeight") # Get current height of page.
@@ -95,6 +107,8 @@ def scrape_linkedin(num_jobs, delay, testing):
         print("The requested number of jobs is {0} but the search found {1} jobs. The scraper will therefore return only {1} jobs.".format(num_jobs, len(job_postings)))
     else:
         job_postings = job_postings[:num_jobs]
+
+    print("Scraping jobs...", flush=True)
 
     for job_posting in job_postings: # Going through each job on the page.
 
