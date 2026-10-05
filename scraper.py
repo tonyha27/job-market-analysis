@@ -46,11 +46,11 @@ def scrape_linkedin(num_jobs, delay, testing):
         WebDriverWait(driver, 30).until(lambda d: d.find_element(By.XPATH, "//*[contains(text(), 'Sign in to view more jobs')]").is_displayed()) 
         time.sleep(delay)
         ActionChains(driver).send_keys(Keys.ESCAPE).perform() 
+        print("Closed pop-up", flush=True)
         time.sleep(delay)
     except TimeoutException: 
+        print("Pop-up did not appear", flush=True)
         pass
-
-    print("Closed pop-up", flush=True)
     
     # Input the value in the "keyword" variable inside in job search box.
     job_search_box = driver.find_element(By.XPATH, "//input[@aria-label='Search job titles or companies']")
