@@ -14,4 +14,4 @@ RUN pip install --no-cache-dir -r requirements.txt
 COPY app.py .
 COPY scraper.py .
 
-CMD ["sh", "-c", "gunicorn --timeout 3900 --bind 0.0.0.0:$PORT app:app"]
+CMD ["sh", "-c", "gunicorn --workers 1 --timeout 3900 --bind 0.0.0.0:$PORT app:app"]
