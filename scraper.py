@@ -162,10 +162,10 @@ def scrape_linkedin(num_jobs, delay, testing):
                 print("Description: {}".format(description[:50] + '...'))
                 print("Salary: {}".format(salary))
                 print()
+            
+        return jobs
 
     finally:
-        if driver:
-            driver.quit()
-            
-    return jobs
+            if driver:
+                driver.quit()
 
