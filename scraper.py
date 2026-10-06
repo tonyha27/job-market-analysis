@@ -87,6 +87,8 @@ def scrape_linkedin(num_jobs, delay, testing):
                 break
             current_height = new_height
 
+        print("Scrolled all the way to the bottom", flush=True)
+
         # Click "See more jobs". Sometimes when clicking the button the page does not load. If this happens above a threshold then we stop clicking.  
         while True:
             driver.find_element(By.XPATH, "//button[@aria-label='See more jobs']").click() # Click the button.
@@ -95,6 +97,8 @@ def scrape_linkedin(num_jobs, delay, testing):
             if new_height == current_height:
                 break
             current_height = new_height
+
+        print("Loaded all available jobs", flush=True)
 
         driver.execute_script("window.scrollTo(0, 0)")
 
