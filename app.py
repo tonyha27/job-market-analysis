@@ -21,7 +21,7 @@ def scrape():
 
     print("Starting scraper...", flush=True)
     
-    jobs = scrape_linkedin(num_jobs=10, delay=3, testing=False)
+    jobs = scrape_linkedin(num_jobs=1000, delay=3, testing=False)
 
     print(f"Scrape finished. Found {len(jobs)} jobs.", flush=True)
 
