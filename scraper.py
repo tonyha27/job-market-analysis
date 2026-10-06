@@ -77,26 +77,26 @@ def scrape_linkedin(num_jobs, delay, testing):
 
         print("Inputted location and press Enter", flush=True)
 
-        # # Scroll to the bottom of the page until it no longer loads.
-        # current_height = driver.execute_script("return document.body.scrollHeight") # Get current height of page.
-        # while True:
-        #     driver.execute_script("window.scrollTo(0, document.body.scrollHeight)") # Scroll to the bottom to load.
-        #     time.sleep(delay)
-        #     new_height = driver.execute_script("return document.body.scrollHeight")
-        #     if new_height == current_height: # Only possible when the page no longer loads, i.e., we have reached the end.
-        #         break
-        #     current_height = new_height
+        # Scroll to the bottom of the page until it no longer loads.
+        current_height = driver.execute_script("return document.body.scrollHeight") # Get current height of page.
+        while True:
+            driver.execute_script("window.scrollTo(0, document.body.scrollHeight)") # Scroll to the bottom to load.
+            time.sleep(delay)
+            new_height = driver.execute_script("return document.body.scrollHeight")
+            if new_height == current_height: # Only possible when the page no longer loads, i.e., we have reached the end.
+                break
+            current_height = new_height
 
-        # # Click "See more jobs". Sometimes when clicking the button the page does not load. If this happens above a threshold then we stop clicking.  
-        # while True:
-        #     driver.find_element(By.XPATH, "//button[@aria-label='See more jobs']").click() # Click the button.
-        #     time.sleep(delay)
-        #     new_height = driver.execute_script("return document.body.scrollHeight")
-        #     if new_height == current_height:
-        #         break
-        #     current_height = new_height
+        # Click "See more jobs". Sometimes when clicking the button the page does not load. If this happens above a threshold then we stop clicking.  
+        while True:
+            driver.find_element(By.XPATH, "//button[@aria-label='See more jobs']").click() # Click the button.
+            time.sleep(delay)
+            new_height = driver.execute_script("return document.body.scrollHeight")
+            if new_height == current_height:
+                break
+            current_height = new_height
 
-        # driver.execute_script("window.scrollTo(0, 0)")
+        driver.execute_script("window.scrollTo(0, 0)")
 
         time.sleep(delay)
 
