@@ -15,6 +15,7 @@ CREATE TABLE dbo.StagingJobs (
     State VARCHAR(100) NOT NULL,
     Industry VARCHAR(200),
     EmploymentType VARCHAR(100),
+    SeniorityLevel VARCHAR(20),
     Description VARCHAR(MAX),
     Salary VARCHAR(200),
     Processed BIT NOT NULL DEFAULT 0,

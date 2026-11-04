@@ -10,30 +10,29 @@ CREATE FUNCTION dbo.CleanState
 (
 	@State VARCHAR(100)
 )
-RETURNS VARCHAR(6)
+RETURNS VARCHAR(10)
 AS
 BEGIN
 	Set @State = UPPER(@State);
 	RETURN
 		CASE 
-            WHEN @State LIKE '%NEW SOUTH WALES%' OR @State = 'NSW' OR @State LIKE 'NSW %' OR @State LIKE '% NSW %' OR @State LIKE '% NSW'
+            WHEN @State LIKE '%NEW SOUTH WALES%' OR @State LIKE '%SYDNEY%'
 				THEN 'NSW'
-			WHEN @State LIKE '%VICTORIA%' OR @State = 'VIC' OR @State LIKE 'VIC %' OR @State LIKE '% VIC %' OR @State LIKE '% VIC'
+			WHEN @State LIKE '%VICTORIA%' OR @State LIKE '%MELBOURNE%'
 				THEN 'VIC'
-			WHEN @State LIKE '%QUEENSLAND%' OR @State = 'QLD' OR @State LIKE 'QLD %' OR @State LIKE '% QLD %' OR @State LIKE '% QLD'
+			WHEN @State LIKE '%QUEENSLAND%' OR @State LIKE '%BRISBANE%'
 				THEN 'QLD'
-			WHEN @State LIKE '%WESTERN AUSTRALIA%' OR @State = 'WA' OR @State LIKE 'WA %' OR @State LIKE '% WA %' OR @State LIKE '% WA'
+			WHEN @State LIKE '%WESTERN AUSTRALIA%' OR @State LIKE '%PERTH%'
 				THEN 'WA'
-			WHEN @State LIKE '%SOUTH AUSTRALIA%' OR @State = 'SA' OR @State LIKE 'SA %' OR @State LIKE '% SA %' OR @State LIKE '% SA'
+			WHEN @State LIKE '%SOUTH AUSTRALIA%' OR @State LIKE '%ADELAIDE%'
 				THEN 'SA'
-			WHEN @State LIKE '%TASMANIA%' OR @State = 'TAS' OR @State LIKE 'TAS %' OR @State LIKE '% TAS %' OR @State LIKE '% TAS'
+			WHEN @State LIKE '%TASMANIA%' OR @State LIKE '%HOBART%'
 				THEN 'TAS'
-			WHEN @State LIKE '%AUSTRALIAN CAPITAL TERRITORY%' OR @State = 'ACT' OR @State LIKE 'ACT %' OR @State LIKE '% ACT %' OR @State LIKE '% ACT'
+			WHEN @State LIKE '%AUSTRALIAN CAPITAL TERRITORY%' OR @State LIKE '%CANBERRA%'
 				THEN 'ACT'
-			WHEN @State LIKE '%NORTHERN TERRITORY%' OR @State = 'NT' OR @State LIKE 'NT %' OR @State LIKE '% NT %' OR @State LIKE '% NT'
+			WHEN @State LIKE '%NORTHERN TERRITORY%' OR @State LIKE '%DARWIN%'
 				THEN 'NT'
-			ELSE
-				'REMOTE'
+			ELSE 'Unknown'
         END
 END;
 GO

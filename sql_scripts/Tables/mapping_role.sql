@@ -1,22 +1,16 @@
 /*
-Map keywords to the following roles in data analytics:
+Map keywords to the following roles in data & analytics profession:
 
-	- Analytics Engineer 
-	- BI Developer 
-	- Business Analyst 
-	- Data Analyst 
-	- Data Architect 
-	- Data Engineer 
-	- Data Governance 
-	- Data Quality Analyst 
-	- Data Scientist 
-	- Database Administrator 
-	- Machine Learning Engineer 
-	- Operations Analyst 
-	- Reporting Analyst 
-	- Research Analyst 
-	- Supply Chain Analyst 
-	- Other
+	- BI Analyst/Developer
+	- Business Analyst
+	- Data Analyst
+	- Data Engineer
+	- Data Governance & Quality
+	- Data Scientist
+	- Financial Analyst
+	- Marketing Analyst
+	- Operations Analyst
+	- Risk Analyst
 
 */
 
@@ -34,27 +28,47 @@ CREATE TABLE dbo.MappingRole (
 GO
 
 INSERT INTO MappingRole VALUES
-('ANALYTICS%ENGINEER', 'Analytics Engineer', 1),
-('BI%DEVELOPER', 'Business Intelligence Developer', 1),
-('BUSINESS INTELLIGENCE%DEVELOPER', 'Business Intelligence Developer', 1),
-('BUSINESS%ANALYST', 'Business Analyst', 1),
-('DATA%ARCHITECT', 'Data Architect', 1),
-('DATA%ENGINEER', 'Data Engineer', 1),
-('DATA%GOVERNANCE%', 'Data Governance', 1),
-('DATA%MANAGEMENT%', 'Data Governance', 1),
-('DATA%STEWARD%', 'Data Governance', 1),
-('DATA%QUALITY%ANALYST', 'Data Quality Analyst', 1),
+
+('BI%ANALY', 'BI Analyst/Developer', 1),
+('BI%DEVELOPER', 'BI Analyst/Developer', 1),
+('BI%SPECIALIST', 'BI Analyst/Developer', 1),
+('BUSINESS INTELLIGENCE', 'BI Analyst/Developer', 1),
+
+('BUSINESS%ANALY', 'Business Analyst', 1),
+
+('DATA ENGINEER', 'Data Engineer', 1),
+
+('DATA%GOVERNANCE', 'Data Governance & Quality', 1),
+('DATA%MANAGEMENT', 'Data Governance & Quality', 1),
+('DATA%STEWARD', 'Data Governance & Quality', 1),
+('DATA%QUALITY%ANALY', 'Data Governance & Quality', 1),
+
 ('DATA%SCIENTIST', 'Data Scientist', 1),
-('DBA', 'Database Administrator', 1),
-('DB ADMIN', 'Database Administrator', 1),
-('DATABASE ADMIN', 'Database Administrator', 1),
-('ML ENGINEER', 'Machine Learning Engineer', 1),
-('MACHINE LEARNING ENGINEER', 'Machine Learning Engineer', 1),
-('OPERATION%ANALYST', 'Operations Analyst', 1),
-('REPORTING%ANALYST', 'Reporting Analyst', 1),
-('RESEARCH%ANALYST', 'Research Analyst', 1),
-('SUPPLY CHAIN%ANALYST', 'Supply Chain Analyst', 1),
-('DATA ANALYST', 'Data Analyst', 2),
+
+('FINANC%ANALY', 'Financial Analyst', 1),
+('COMMERC%ANALY', 'Financial Analyst', 1),
+('PRIC%ANALY', 'Financial Analyst', 1),
+
+('MARKETING%ANALY', 'Marketing Analyst', 1),
+
+('OPERATION%ANALY', 'Operations Analyst', 1),
+('INVENTORY', 'Operations Analyst', 1),
+('WORKFORCE', 'Operations Analyst', 1),
+('PERFORMANCE', 'Operations Analyst', 1),
+('SUPPLY CHAIN%ANALY', 'Operations Analyst', 1),
+
+('RISK%ANALY', 'Risk Analyst', 1),
+('RISK%MODEL', 'Risk Analyst', 1),
+('CREDIT%ANALY', 'Risk Analyst', 1),
+
+('DATA%ANALY', 'Data Analyst', 2),
+('BI ANALY', 'Data Analyst', 2),
+('BUSINESS INTELLIGENCE ANALY', 'Data Analyst', 2),
+('INSIGHT%ANALY', 'Data Analyst', 2),
+('PRODUCT ANALY', 'Data Analyst', 2),
+('REPORTING%ANALY', 'Data Analyst', 2),
+('ANALYTICS', 'Data Analyst', 2), 
+
 ('', 'Other', 3);
 GO
 

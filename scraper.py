@@ -136,6 +136,7 @@ def scrape_linkedin(num_jobs, delay, testing):
             location = driver.find_element(By.XPATH, "//span[@class='topcard__flavor topcard__flavor--bullet']").text
             industry = driver.find_element(By.XPATH, "//li[@class='description__job-criteria-item' and contains(., 'Industries')]").find_element(By.XPATH, './span').text
             employment_type = driver.find_element(By.XPATH, "//li[@class='description__job-criteria-item' and contains(., 'Employment type')]").find_element(By.XPATH, './span').text
+            seniority_level = driver.find_element(By.XPATH, "//li[@class='description__job-criteria-item' and contains(., 'Seniority level')]").find_element(By.XPATH, './span').text
             description = driver.find_element(By.XPATH, "//div[@class='description__text description__text--rich']/section/div").text
             try:
                 salary = driver.find_element(By.XPATH, "//div[@class='salary compensation__salary']").text
@@ -149,6 +150,7 @@ def scrape_linkedin(num_jobs, delay, testing):
                         "Location": location,
                         "Industry": industry,
                         "Employment type": employment_type,
+                        "Seniority level": seniority_level,
                         "Description": description,
                         "Salary": salary})
 
@@ -163,6 +165,7 @@ def scrape_linkedin(num_jobs, delay, testing):
                 print("Location: {}".format(location))
                 print("Industry: {}".format(industry))
                 print("Employment type: {}".format(employment_type))
+                print("Seniority level: {}".format(seniority_level))
                 print("Description: {}".format(description[:50] + '...'))
                 print("Salary: {}".format(salary))
                 print()

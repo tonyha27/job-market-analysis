@@ -9,6 +9,7 @@ GO
 /*
 Assumes the argument is in one of the following formats:
 
+	- % minute/s ago
 	- % hour/s ago
 	- % day/s ago
 	- % week/s ago
@@ -24,6 +25,10 @@ AS
 BEGIN
 	RETURN 
 		CASE 
+		-- If format is % minute/s ago, then subtract the number of minutes from the current date
+		WHEN @JobDate LIKE '%minute%'
+			THEN TRY_CAST(DATEADD(MINUTE, -CAST(LEFT(@JobDate, CHARINDEX('m', @JobDate) - 2) AS INT), GETDATE()) AS DATE)
+
 		-- If format is % hour/s ago, then subtract the number of hours from the current date
 		WHEN @JobDate LIKE '%hour%'
 			THEN TRY_CAST(DATEADD(HOUR, -CAST(LEFT(@JobDate, CHARINDEX('h', @JobDate) - 2) AS INT), GETDATE()) AS DATE)
