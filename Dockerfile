@@ -36,7 +36,7 @@ COPY requirements.txt .
 RUN pip install --no-cache-dir -r requirements.txt
 
 # 6. Copy Python source code
-COPY main.py scraper.py database.py ./
+COPY python/main.py python/scraper.py python/database.py ./
 
 # 7. Run scraper when container starts
 CMD ["python", "-u", "main.py"]

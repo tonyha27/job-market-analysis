@@ -31,14 +31,14 @@ def scrape_linkedin(num_jobs, delay, debugging):
 
         print("Chrome driver configured.", flush=True)
 
-        # Load the LinkedIn homepage.
+        # Go the the LinkedIn homepage and wait for it to load.
         driver.get("https://www.linkedin.com/") 
+        time.sleep(10)
 
         print("LinkedIn page loaded.", flush=True)
 
         # Store our job listings as a list of dictionaries. 
         jobs = [] 
-        time.sleep(delay)
 
         # Click on the "Jobs" button.
         driver.find_elements(By.XPATH, "//icon[@class='top-nav-link__icon flex h-3 w-3 flex-shrink-0 justify-center lazy-loaded']")[3].click()
