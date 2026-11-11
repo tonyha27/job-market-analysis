@@ -1,4 +1,4 @@
-# LAST MODIFIED: 9/11/2026
+# LAST MODIFIED: 11/11/2026
 
 import time
 from selenium import webdriver # Allows Python to control web brosers programmatically.
@@ -7,6 +7,7 @@ from selenium.common.exceptions import TimeoutException # Deal with pop-ups that
 from selenium.webdriver.common.action_chains import ActionChains # Allows multiple mouse and keyboard interactions to be combined in a sequence.
 from selenium.webdriver.common.by import By # Locate browser elements using their XPATH.
 from selenium.webdriver.common.keys import Keys # Allow keyboard interactions.
+from selenium.webdriver.support import expected_conditions as EC # Make Python wait until a specific condition is met. Used here to wait until the jobs button is clickable.
 from selenium.webdriver.support.ui import WebDriverWait # Make Python wait until a specific condition is met. Used here to wait until the sign-in pop-up is clicked.  
 
 # This function scrapes jobs from LinkedIn. The arguments and their descriptions are as follows.
@@ -31,19 +32,40 @@ def scrape_linkedin(num_jobs, delay, debugging):
 
         print("Chrome driver configured.", flush=True)
 
-        # Go the the LinkedIn homepage and wait for it to load.
+        # Go the the LinkedIn homepage.
         driver.get("https://www.linkedin.com/") 
-        time.sleep(10)
 
-        print("LinkedIn page loaded.", flush=True)
+        print("Landed on LinkedIn homepage.", flush=True)
 
-        # Store our job listings as a list of dictionaries. 
-        jobs = [] 
+        # Wait for the jobs button to be clickable before clicking it. If it fails to be clickable then refresh the page
+        # and try one more time. If it still doesn't work, quit the driver and raise the error. 
+        try:
+            jobs_button = WebDriverWait(driver, 30).until(
+                EC.element_to_be_clickable(
+                    (By.XPATH, "(//icon[@class='top-nav-link__icon flex h-3 w-3 flex-shrink-0 justify-center lazy-loaded'])[4]")
+                )
+            )
+            time.sleep(delay)
+            jobs_button.click()
+            print("Jobs button clicked.", flush=True)
 
-        # Click on the "Jobs" button.
-        driver.find_elements(By.XPATH, "//icon[@class='top-nav-link__icon flex h-3 w-3 flex-shrink-0 justify-center lazy-loaded']")[3].click()
+        except TimeoutException:
+            print("Jobs button did not appear. Retrying...", flush=True)
+            try:
+                driver.refresh()
+                jobs_button = WebDriverWait(driver, 60).until(
+                    EC.element_to_be_clickable(
+                        (By.XPATH, "(//icon[@class='top-nav-link__icon flex h-3 w-3 flex-shrink-0 justify-center lazy-loaded'])[4]")
+                    )
+                )
+                time.sleep(delay)
+                jobs_button.click()
+                print("Jobs button clicked after refreshing.", flush=True)
 
-        print("Job button clicked", flush=True)
+            except TimeoutException:
+                print("Unable to locate Jobs button. Scraper cannot continue.", flush=True)
+                driver.quit()
+                raise
         
         # Wait until the sign-in popup appears then clear it. If it doesn't appear after some time then continue on. 
         try:
@@ -112,6 +134,9 @@ def scrape_linkedin(num_jobs, delay, debugging):
             job_postings = job_postings[:num_jobs]
 
         print("Scraping jobs...", flush=True)
+
+        # Store our job listings as a list of dictionaries. 
+        jobs = [] 
 
         # Loop through each individual job listing and extract the desired information.
         for job_posting in job_postings:

@@ -3,3 +3,4 @@ __pycache__/
 .env
 .vscode/
 sql/master_script.sql
+testing/
