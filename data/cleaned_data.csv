@@ -1,0 +1,229 @@
+﻿JobID,JobDate,Title,Role,Company,State,Industry,EmploymentType,SeniorityLevel,SQL,Python,Excel,R,PowerBI,Tableau,MachineLearning,DeepLearning,AI,Salary
+1,2026-11-05,ANALYST - RNA,Other,WNS,NSW,Outsourcing/Offshoring,Full-time,Entry level,1,0,0,1,0,1,0,0,0,NULL
+2,2026-11-06,ANALYST | TAX DATA AUTOMATION (PYTHON & SQL),Other,DELOITTE,WA,Business Consulting and Services,Full-time,Entry level,0,0,0,0,0,0,0,0,1,NULL
+3,2026-10-13,ASSET AND OPTIMISATION ANALYST,Other,SERVICE STREAM,QLD,Civil Engineering,Full-time,Mid-Senior level,0,0,0,0,0,0,0,0,0,NULL
+4,2026-11-03,ASSET DATA AND PERFORMANCE ANALYST,Operations Analyst,WESTERN POWER,WA,Utilities,Full-time,Entry level,0,0,0,0,0,0,0,0,0,NULL
+5,2026-10-10,AVIATION DATA & RESEARCH ANALYST,Data Analyst,PERTH AIRPORT,WA,Aviation and Aerospace Component Manufacturing,Full-time,Not Applicable,0,0,0,0,0,0,0,0,0,NULL
+6,2026-10-27,BUSINESS & REPORTING ANALYST,Business Analyst,AUTO & GENERAL AUSTRALIA,QLD,Insurance,Full-time,Not Applicable,0,0,0,0,0,0,0,0,0,NULL
+7,2026-11-03,BUSINESS ANALYST,Business Analyst,NSW DEPARTMENT OF COMMUNITIES AND JUSTICE,NSW,Government Administration,Full-time,Not Applicable,0,0,0,0,0,0,0,0,0,NULL
+8,2026-09-10,BUSINESS INTELLIGENCE ANALYST - PROVISION,Business Analyst,PROVISION EYECARE,VIC,Professional Organizations,Full-time,Not Applicable,1,1,0,0,1,0,0,0,1,NULL
+9,2026-11-03,"BUSINESS INTELLIGENCE ANALYST- SOUTH BANK, QLD",Business Analyst,FLIGHT CENTRE TRAVEL GROUP,QLD,Travel Arrangements,Full-time,Not Applicable,0,0,0,0,0,0,0,0,0,NULL
+10,2026-11-09,BUSINESS INTELLIGENCE SPECIALIST - DATA & ANALYTICS,Business Analyst,CATHOLIC DIOCESE OF MAITLAND-NEWCASTLE,NSW,Religious Institutions,Full-time,Not Applicable,1,0,0,0,1,0,0,0,0,NULL
+11,2026-11-03,CUSTOMER INSIGHTS ANALYST,Data Analyst,PEPPER MONEY ANZ,NSW,Financial Services,Full-time,Not Applicable,0,0,0,0,0,0,0,0,0,NULL
+12,2026-11-08,DATA & BI ANALYST: DRIVE STRATEGIC EDUCATION INSIGHTS,BI Analyst/Developer,CATHOLIC EDUCATION NORTHERN TERRITORY,NT,Primary and Secondary Education,Full-time,Not Applicable,1,0,0,0,0,0,0,0,0,NULL
+13,2026-10-27,DATA ANALYST,Data Analyst,AH&MRC OF NSW,NSW,Non-profit Organizations,Full-time,Not Applicable,0,0,0,0,0,0,0,0,0,NULL
+14,2026-10-27,DATA ANALYST,Data Analyst,AMENTUM,SA,Defense and Space Manufacturing,Full-time,Not Applicable,0,0,1,0,1,0,0,0,0,NULL
+15,2026-11-03,DATA ANALYST,Data Analyst,BNP PARIBAS,NSW,Banking,Full-time,Not Applicable,0,0,0,0,0,0,0,0,1,NULL
+16,2026-11-04,DATA ANALYST,Data Analyst,BOQ GROUP,QLD,Financial Services,Full-time,Not Applicable,0,0,0,0,0,0,0,0,0,NULL
+17,2026-11-03,DATA ANALYST,Data Analyst,CAPITAL HEALTH NETWORK,ACT,Hospitals and Health Care and IT Services and IT Consulting,Full-time,Not Applicable,0,0,0,0,0,0,0,0,1,NULL
+18,2026-11-09,DATA ANALYST,Data Analyst,"KBR, INC.",ACT,IT Services and IT Consulting,Full-time,Not Applicable,0,0,0,0,0,0,0,0,0,NULL
+19,2026-11-03,DATA ANALYST,Data Analyst,MACKAY REGIONAL COUNCIL,QLD,Government Administration,Full-time,Not Applicable,1,0,0,0,0,0,0,0,0,NULL
+20,2026-11-10,DATA ANALYST,Data Analyst,THE ROYAL AUSTRALASIAN COLLEGE OF PHYSICIANS,NSW,Education,Full-time,Not Applicable,0,0,0,0,0,0,0,0,1,NULL
+21,2026-11-05,DATA ANALYST,Data Analyst,VICTORIAN CHAMBER OF COMMERCE AND INDUSTRY,VIC,Non-profit Organizations,Full-time,Not Applicable,0,0,0,0,0,0,0,0,0,NULL
+22,2026-11-07,"DATA ANALYST (X5 ROLES) (LOCATIONS: VIC, TAS, SA)",Data Analyst,ADVANCE DELIVERY CONSULTING,NSW,Information Technology & Services,Full-time,Not Applicable,1,0,0,0,0,0,0,0,0,NULL
+23,2026-11-03,DATA ANALYST - FINANCIAL CRIME INTELLIGENCE,Data Analyst,WESTPAC GROUP,NSW,"Banking, Financial Services, and Investment Banking",Full-time,Associate,0,0,0,0,0,0,0,0,0,NULL
+24,2026-10-20,DATA ANALYST - QA,Data Analyst,ACCENTURE AUSTRALIA,NSW,IT Services and IT Consulting,Full-time,Mid-Senior level,1,0,0,0,1,1,0,0,0,NULL
+25,2026-11-03,DATA ANALYST – GCP & TELECOMMUNICATIONS,Data Analyst,DIPOLE GROUP,NSW,IT Services and IT Consulting,Contract,Mid-Senior level,0,0,0,0,0,0,0,0,0,NULL
+26,2026-11-03,"DATA ANALYST AND ENGINEER- SOUTH BANK, QLD",Data Analyst,FLIGHT CENTRE TRAVEL GROUP,QLD,Travel Arrangements,Full-time,Not Applicable,0,0,0,0,0,0,0,0,0,NULL
+27,2026-11-06,DATA BUSINESS ANALYST - SYDNEY OR MELBOURNE,Business Analyst,KONNEXUS,VIC,Staffing and Recruiting,Contract,Mid-Senior level,0,0,0,0,0,0,0,0,0,NULL
+28,2026-11-09,ENGINEERING DATA ANALYST,Data Analyst,AUSTAL,WA,Shipbuilding,Full-time,Not Applicable,1,1,0,0,1,0,0,0,0,NULL
+29,2026-11-07,FINANCIAL ANALYST,Financial Analyst,WEAVE. RECRUITMENT,VIC,Staffing and Recruiting,Full-time,Mid-Senior level,0,0,0,0,0,0,0,0,0,125000
+30,2026-11-03,FINANCIAL CRIME ANALYST,Financial Analyst,CUSCAL LIMITED,QLD,Financial Services,Full-time,Not Applicable,0,0,0,0,0,0,0,0,0,NULL
+31,2026-10-20,FP&A ANALYST,Other,HATCH,NSW,Internet Marketplace Platforms,Full-time,Entry level,0,0,0,0,0,0,0,0,0,NULL
+32,2026-10-20,FP&A ANALYST,Other,MONEYME,NSW,Financial Services,Full-time,Not Applicable,0,0,0,0,0,0,0,0,0,NULL
+33,2026-10-20,INSIGHTS ANALYST,Data Analyst,SPORTSBET,VIC,"Technology, Information and Media and Sports Teams and Clubs",Full-time,Mid-Senior level,0,0,0,0,0,0,0,0,0,NULL
+34,2026-11-08,INVESTMENT DATA & REGULATORY REPORTING ANALYST,Data Analyst,JANUS HENDERSON GROUP PLC,VIC,Investment Management,Full-time,Not Applicable,0,0,0,0,0,0,0,0,0,NULL
+35,2026-10-27,LEAD DATA ANALYST,Data Analyst,SALIENT GROUP,NSW,Staffing and Recruiting,Full-time,Mid-Senior level,0,0,0,0,0,0,0,0,0,NULL
+36,2026-11-03,LEAD DATA ANALYST,Data Analyst,ZONE IT SOLUTIONS,NSW,IT Services and IT Consulting,Full-time,Mid-Senior level,0,0,0,0,0,0,0,0,0,NULL
+37,2026-11-07,MARKETING ANALYST-SENIOR,Marketing Analyst,FEDEX AUSTRALIA,NSW,Freight and Package Transportation,Full-time,Not Applicable,0,0,0,0,0,0,0,0,0,NULL
+38,2026-11-05,NETWORK DATA ANALYST,Data Analyst,XPT SOFTWARE AUSTRALIA,NSW,IT Services and IT Consulting,Full-time,Not Applicable,1,1,0,0,0,0,0,0,0,NULL
+39,2026-11-10,PAYROLL DATA ANALYST,Data Analyst,ZONE IT SOLUTIONS,VIC,IT Services and IT Consulting,Contract,Mid-Senior level,0,0,0,0,0,0,0,0,0,NULL
+40,2026-10-20,PERFORMANCE ANALYST,Operations Analyst,ACCENTURE AUSTRALIA,VIC,Business Consulting and Services,Full-time,Entry level,0,0,0,0,0,0,0,0,0,NULL
+41,2026-11-08,POWER BI REPORT DEVELOPER,BI Analyst/Developer,HARMONY AUSTRALASIA,QLD,Mining,Full-time,Not Applicable,0,0,0,0,1,0,0,0,0,NULL
+42,2026-10-10,PRICING & REVENUE ANALYST,Financial Analyst,EUREKA GROUP,QLD,Real Estate,Full-time,Not Applicable,0,0,0,0,0,0,0,0,0,NULL
+43,2026-11-05,PRICING ANALYST,Financial Analyst,MICHAEL PAGE,QLD,Staffing and Recruiting,Full-time,Not Applicable,0,0,0,0,0,0,0,0,0,NULL
+44,2026-11-03,PRODUCT ANALYST,Data Analyst,TRIPLEDOT STUDIOS,VIC,Computer Games,Full-time,Not Applicable,0,0,0,0,0,0,0,0,0,NULL
+45,2026-11-09,RETAIL OPERATIONS DATA ANALYST,Operations Analyst,HARLI + HARPA,VIC,Retail,Full-time,Entry level,0,0,0,0,0,0,0,0,0,NULL
+46,2026-11-04,RETAIL REPORTING ANALYST,Data Analyst,CIRCANA,VIC,Market Research,Full-time,Not Applicable,0,0,0,0,0,0,0,0,0,NULL
+47,2026-11-10,SENIOR DATA & INSIGHTS ANALYST,Data Analyst,OPTUS,VIC,Telecommunications,Full-time,Not Applicable,0,0,0,0,0,0,0,0,0,NULL
+48,2026-11-03,SENIOR DATA & REPORTING ANALYST,Data Analyst,ARROTEX PHARMACEUTICALS,VIC,Pharmaceutical Manufacturing,Full-time,Not Applicable,0,0,0,0,0,0,0,0,1,NULL
+49,2026-11-03,SENIOR DATA & REPORTING ANALYST,Data Analyst,DBG HEALTH,VIC,Retail Health and Personal Care Products,Full-time,Not Applicable,0,0,0,0,0,0,0,0,1,NULL
+50,2026-11-03,SENIOR DATA ANALYST,Data Analyst,COGNIZANT,NSW,IT Services and IT Consulting and Business Consulting and Services,Full-time,Not Applicable,0,0,0,0,0,0,0,0,0,NULL
+51,2026-11-08,SENIOR DATA ANALYST,Data Analyst,EY,ACT,Professional Services,Full-time,Mid-Senior level,0,0,0,0,0,0,0,0,0,NULL
+52,2026-10-20,SENIOR DATA ANALYST,Data Analyst,HAYS,NSW,Human Resources Services,Contract,Mid-Senior level,0,0,0,0,0,0,0,0,0,NULL
+53,2026-10-20,SENIOR DATA ANALYST,Data Analyst,MABLE,NSW,Software Development,Full-time,Not Applicable,0,0,0,0,0,0,0,0,1,NULL
+54,2026-11-03,SENIOR DATA ANALYST,Data Analyst,NSW DEPARTMENT OF COMMUNITIES AND JUSTICE,NSW,Government Administration,Full-time,Not Applicable,1,0,0,0,0,0,0,0,0,NULL
+55,2026-11-03,SENIOR DATA ANALYST,Data Analyst,NSW TREASURY,NSW,Government Administration,Full-time,Mid-Senior level,0,0,0,0,0,0,0,0,0,NULL
+56,2026-11-05,SENIOR DATA ANALYST,Data Analyst,ST VINCENT'S HEALTH AUSTRALIA,VIC,Hospitals and Health Care,Full-time,Not Applicable,0,0,0,0,1,0,0,0,0,NULL
+57,2026-11-03,SENIOR DATA ANALYST,Data Analyst,VERSENT,VIC,IT Services and IT Consulting,Full-time,Not Applicable,0,0,0,0,1,0,0,0,0,NULL
+58,2026-11-03,SENIOR DATA ANALYST - WORKFORCE PLANNING,Operations Analyst,ALH HOTELS,NSW,Hospitality,Full-time,Not Applicable,0,0,0,0,0,0,0,0,0,NULL
+59,2026-11-03,SENIOR DATA ANALYST - WORKFORCE PLANNING,Operations Analyst,ALH HOTELS,VIC,Hospitality,Full-time,Not Applicable,0,0,0,0,0,0,0,0,0,NULL
+60,2026-08-10,SENIOR DATA ANALYST • REMOTE,Data Analyst,STYLETYX,SA,"Technology, Information and Internet",Full-time,Not Applicable,0,0,0,0,0,0,0,0,0,NULL
+61,2026-10-20,"SENIOR DATA ANALYST, ANALYTICS & INSIGHTS",Data Analyst,HOUSING AUSTRALIA,NSW,Financial Services,Full-time,Not Applicable,1,0,0,0,1,0,0,0,0,NULL
+62,2026-10-13,SENIOR NETWORK DATA ANALYST,Data Analyst,XPT SOFTWARE,NSW,IT Services and IT Consulting,Full-time,Mid-Senior level,0,0,0,0,0,0,0,0,0,NULL
+63,2026-10-20,SENIOR NETWORK DATA ANALYST,Data Analyst,XPT SOFTWARE AUSTRALIA,NSW,IT Services and IT Consulting,Full-time,Not Applicable,1,1,0,0,0,0,0,0,0,NULL
+64,2026-11-03,STUDENT DATA REPORTING ANALYST (MELBOURNE/SYDNEY/BRISBANE),Data Analyst,JMC ACADEMY,NSW,Education Administration Programs,Full-time,Associate,0,0,0,0,0,0,0,0,0,NULL
+65,2026-11-06,SUSTAINABLE AGRICULTURE DATA ANALYST,Data Analyst,RABOBANK AUSTRALIA,NSW,Banking,Full-time,Not Applicable,0,0,0,0,0,0,0,0,0,NULL
+66,2026-11-09,TECHNICAL DATA ANALYST,Data Analyst,BENETAS,VIC,Hospitals and Health Care,Full-time,Not Applicable,0,0,0,0,0,0,0,0,0,NULL
+67,2026-11-03,"TRANSACTION ANALYTICS, MELBOURNE & SYDNEY (ALL LEVELS CONSIDERED!)",Data Analyst,ALVAREZ & MARSAL,VIC,Business Consulting and Services,Full-time,Not Applicable,0,0,0,0,0,0,0,0,0,NULL
+68,2026-10-29,(SENIOR) OPERATIONS ANALYST,Operations Analyst,DIDI,VIC,Software Development,Full-time,Not Applicable,0,0,0,0,0,0,0,0,1,NULL
+69,2026-11-11,*CUSTOMER & MARKETING DATA STRATEGY ASSOCIATE MANAGER*,Other,ACCENTURE AUSTRALIA,VIC,IT Services and IT Consulting,Full-time,Mid-Senior level,0,0,0,0,0,0,0,0,1,NULL
+70,2026-11-05,AI & ANALYTICS ENGINEER,Data Analyst,MONKS,NSW,Advertising Services,Full-time,Not Applicable,1,0,0,0,0,0,0,0,1,NULL
+71,2026-11-05,AML RISK OPERATIONS ANALYST,Risk Analyst,HUB24 LIMITED,NSW,Financial Services,Full-time,Not Applicable,0,0,0,0,0,0,0,0,0,NULL
+72,2026-10-29,"ANALYST, ANZ DATA & INSIGHTS",Other,SONY MUSIC ENTERTAINMENT,NSW,Musicians,Full-time,Associate,1,0,0,0,0,0,0,0,0,NULL
+73,2026-11-05,"ANALYST, DATA ENGINEER",Data Engineer,IAG,VIC,Insurance,Full-time,Not Applicable,0,0,0,0,0,0,0,0,0,NULL
+74,2026-10-22,"ANALYST, INVESTMENT APPRAISAL",Other,PREMIER'S DEPARTMENT NSW,NSW,Economic Programs and Government Administration,Full-time,Associate,0,0,0,0,0,0,0,0,0,123236.5
+75,2026-11-12,ANALYTICAL INSIGHTS ANALYST,Data Analyst,NINE,NSW,Broadcast Media Production and Distribution,Full-time,Not Applicable,0,0,0,0,0,0,0,0,0,NULL
+76,2026-10-12,ANALYTICS & INSIGHTS SPECIALIST,Data Analyst,JAYWING AUSTRALIA,NSW,Advertising Services,Full-time,Associate,0,0,0,0,0,0,0,0,0,NULL
+77,2026-11-05,ANALYTICS BUSINESS ANALYST,Business Analyst,CSIRO,SA,Research Services,Full-time,Not Applicable,0,0,0,0,0,0,0,0,0,NULL
+78,2026-11-05,ANALYTICS LEAD,Data Analyst,KMART AUSTRALIA LIMITED,VIC,"Retail Apparel and Fashion, Manufacturing, and Retail",Full-time,Not Applicable,0,0,0,0,0,0,0,0,0,NULL
+79,2026-11-09,"APS6 ANALYSTS, PERSONAL AND SUPERANNUATION TAX ANALYSIS BRANCH",Other,COMMONWEALTH TREASURY,NSW,Government Administration,Full-time,Not Applicable,0,0,0,0,0,0,0,0,0,NULL
+80,2026-11-12,ASO6 - DATA ANALYST,Data Analyst,"DEPARTMENT FOR EDUCATION, SOUTH AUSTRALIA",SA,Government Administration,Full-time,Not Applicable,0,0,0,0,0,0,0,0,0,NULL
+81,2026-10-29,"ASSISTANT CATEGORY MANAGER, OUT OF HOME",Other,MCCAIN FOODS,VIC,Food and Beverage Manufacturing,Full-time,Not Applicable,0,0,0,0,0,0,0,0,1,NULL
+82,2026-11-06,ASSOCIATE PERFORMANCE ATTRIBUTION ANALYST,Operations Analyst,DOWNER,NSW,Rail Transportation,Full-time,Not Applicable,0,0,0,0,0,0,0,0,0,NULL
+83,2026-11-05,BURNS DATA MANAGER,Other,SOUTH METROPOLITAN HEALTH SERVICE,WA,Hospitals and Health Care,Full-time,Not Applicable,0,0,0,0,0,0,0,0,0,NULL
+84,2026-11-11,BUSINESS ADVISORY SUPPORT OFFICER,Other,TALENT,NSW,Staffing and Recruiting,Contract,Not Applicable,0,0,0,0,0,0,0,0,0,NULL
+85,2026-11-06,BUSINESS ANALYST,Business Analyst,EXCLAIM IT,QLD,Staffing and Recruiting,Contract,Mid-Senior level,0,0,0,0,0,0,0,0,0,NULL
+86,2026-10-12,BUSINESS ANALYST/SENIOR BUSINESS ANALYST,Business Analyst,GUNN AGRI PARTNERS,NSW,Farming,Full-time,Mid-Senior level,0,0,0,0,0,0,0,0,0,NULL
+87,2026-10-22,BUSINESS ANALYTICS MANAGER- ANZ,Business Analyst,DANONE,NSW,"Manufacturing, Food and Beverage Services, and Food and Beverage Manufacturing",Full-time,Not Applicable,0,0,0,0,0,0,0,0,0,NULL
+88,2026-11-05,BUSINESS INTELLIGENCE ANALYST,Business Analyst,IMC TRADING,NSW,Financial Services,Full-time,Not Applicable,0,0,0,0,0,0,0,0,0,NULL
+89,2026-11-12,BUSINESS INTELLIGENCE ANALYST,Business Analyst,SPAIT INFOTECH,NSW,Software Development,Full-time,Entry level,0,0,0,0,0,0,0,0,0,NULL
+90,2026-10-22,BUSINESS INTELLIGENCE DATA AND ANALYTICS LEAD,Business Analyst,PUBLIC TRANSPORT AUTHORITY,WA,Government Administration,Full-time,Not Applicable,0,0,0,0,0,0,0,0,0,NULL
+91,2026-10-29,"BUSINESS INTELLIGENCE DEVELOPER- SOUTH BANK, QLD",BI Analyst/Developer,FLIGHT CENTRE TRAVEL GROUP,QLD,Travel Arrangements,Full-time,Not Applicable,0,0,0,0,0,0,0,0,0,NULL
+92,2026-10-29,CALYPSO BUSINESS ANALYST - COLLATERAL [SYDNEY],Business Analyst,LUXOFT,NSW,IT Services and IT Consulting,Full-time,Mid-Senior level,0,0,0,0,0,0,0,0,0,NULL
+93,2026-11-05,CAR-T CELL DATA MANAGER (HEALTH MANAGER LVL 1) - LIVERPOOL HAEMATOLOGY - PERM FT,Other,SOUTH WESTERN SYDNEY LOCAL HEALTH DISTRICT,NSW,Hospitals and Health Care,Full-time,Not Applicable,0,0,0,0,0,0,0,0,0,NULL
+94,2026-10-22,CARBON & LIVESTOCK ANALYST,Other,THE NORTH AUSTRALIAN PASTORAL COMPANY,QLD,Food and Beverage Manufacturing,Full-time,Not Applicable,0,0,0,0,0,0,0,0,0,NULL
+95,2026-11-09,CATEGORY EXECUTIVE,Other,MCPHERSON'S CONSUMER PRODUCTS,NSW,Retail Health and Personal Care Products and Retail Pharmacies,Full-time,Not Applicable,0,0,0,0,0,0,0,0,0,NULL
+96,2026-11-11,CLINICAL DATA PROGRAMMER III - SAS - AUSTRALIA,Other,NOVOTECH,NSW,Biotechnology Research,Full-time,Mid-Senior level,0,0,0,0,1,0,0,0,0,NULL
+97,2026-11-06,CLUSTER ANALYTICS MANAGER,Data Analyst,MARRIOTT INTERNATIONAL,NSW,Hospitality,Full-time,Associate,0,0,0,0,0,0,0,0,0,NULL
+98,2026-11-05,COLLECTIONS INTELLIGENCE LEAD,Other,AGL,VIC,"IT Services and IT Consulting, Oil and Gas, and Utilities",Full-time,Not Applicable,0,0,0,0,0,0,0,0,0,NULL
+99,2026-10-29,COMMERCIAL ANALYST,Financial Analyst,MACQUARIE TECHNOLOGY GROUP,NSW,"IT Services and IT Consulting, Telecommunications, and Software Development",Full-time,Mid-Senior level,0,0,0,0,0,0,0,0,1,NULL
+100,2026-11-05,CONDITION MONITORING ANALYST,Other,WESTRAC CAT,WA,Machinery Manufacturing,Full-time,Not Applicable,0,0,0,0,0,0,0,0,0,NULL
+101,2026-11-06,CONSULTANT,Other,CIRCANA,NSW,Market Research,Full-time,Not Applicable,0,0,0,0,0,0,0,0,0,NULL
+102,2026-11-10,CONSULTANT,Other,DELOITTE,WA,Business Consulting and Services,Full-time,Associate,0,0,0,0,0,0,0,0,0,NULL
+103,2026-10-12,"CUSTOMER AND MARKETING DATA & AI STRATEGY, CONSULTANT",Other,ACCENTURE AUSTRALIA,NSW,IT Services and IT Consulting,Full-time,Not Applicable,0,0,0,0,0,0,0,0,1,NULL
+104,2026-10-29,CUSTOMER INSIGHTS ANALYST,Data Analyst,RWWA,WA,"Gambling Facilities and Casinos, Spectator Sports, and Venture Capital and Private Equity Principals",Full-time,Mid-Senior level,1,0,0,0,1,0,0,0,0,NULL
+105,2026-11-11,CUSTOMER JOURNEY ANALYTICS CONSULTANT (ADOBE AEP & CJA),Data Analyst,OGILVY ONE,VIC,"Advertising Services, Media Production, and Online Audio and Video Media",Full-time,Mid-Senior level,0,0,0,0,0,0,0,0,0,NULL
+106,2026-11-05,D365 APPLICATION SUPPORT & MASTER DATA ANALYST,Data Analyst,GALE PACIFIC LIMITED,VIC,Textile Manufacturing,Contract,Mid-Senior level,0,0,0,0,0,0,0,0,0,NULL
+107,2026-10-29,DA +NETWORKING,Other,XPT SOFTWARE,NSW,IT Services and IT Consulting,Full-time,Mid-Senior level,0,0,0,0,0,0,0,0,0,NULL
+108,2026-11-05,DATA & BUSINESS INTELLIGENCE ANALYST,Business Analyst,CATHOLIC EDUCATION NORTHERN TERRITORY,NT,Primary and Secondary Education,Full-time,Not Applicable,1,0,0,0,0,0,0,0,0,NULL
+109,2026-11-11,DATA ADMINISTRATOR,Other,TRANSPORT FOR NSW,NSW,Truck Transportation,Full-time,Not Applicable,0,0,0,0,0,0,0,0,0,NULL
+110,2026-10-15,DATA ANALYST,Data Analyst,AUSTRALIAN COLLEGE OF RURAL AND REMOTE MEDICINE (ACRRM),QLD,Non-profit Organizations,Full-time,Mid-Senior level,0,0,0,0,0,0,0,0,0,NULL
+111,2026-11-11,DATA ANALYST,Data Analyst,CLARITY PARTNERS,WA,Staffing and Recruiting,Contract,Mid-Senior level,0,0,0,0,0,0,0,0,0,125000
+112,2026-11-06,DATA ANALYST,Data Analyst,HAYS,NSW,Staffing and Recruiting,Contract,Associate,0,0,0,0,0,0,0,0,0,NULL
+113,2026-11-11,DATA ANALYST,Data Analyst,HUB24 LIMITED,NSW,Financial Services,Full-time,Not Applicable,0,0,0,0,0,0,0,0,0,NULL
+114,2026-10-29,DATA ANALYST,Data Analyst,HUB24 LIMITED,VIC,Financial Services,Full-time,Not Applicable,1,1,0,0,0,0,0,0,0,NULL
+115,2026-10-29,DATA ANALYST,Data Analyst,SUNCORP GROUP,NSW,Insurance,Full-time,Not Applicable,0,0,0,0,0,0,0,0,0,NULL
+116,2026-11-09,"DATA ANALYST, SERVICE INTEGRITY",Data Analyst,MUFG PENSION & MARKET SERVICES,NSW,Financial Services,Full-time,Associate,0,0,0,0,0,0,0,0,0,NULL
+117,2026-10-29,DATA ANALYTICS SPECIALIST,Data Analyst,EPIROC,WA,Mining,Full-time,Not Applicable,0,0,0,0,1,0,0,0,0,NULL
+118,2026-11-09,DATA ENGINEER,Data Engineer,ZONE IT SOLUTIONS,WA,IT Services and IT Consulting,Full-time,Mid-Senior level,0,0,0,0,0,0,0,0,0,NULL
+119,2026-11-07,DATA ENGINEER (FRAUD ANALYTICS & INTELLIGENCE),Data Engineer,FORTIRO,VIC,Software Development,Full-time,Not Applicable,0,0,0,0,0,0,0,0,1,NULL
+120,2026-11-12,DATA GOVERNANCE ANALYST,Data Governance & Quality,ALDI STORES AUSTRALIA,NSW,Retail,Full-time,Not Applicable,0,0,0,0,0,0,0,0,1,NULL
+121,2026-11-12,DATA GOVERNANCE SPECIALIST,Data Governance & Quality,ALDI STORES AUSTRALIA,NSW,Retail,Full-time,Not Applicable,0,0,0,0,0,0,0,0,0,NULL
+122,2026-10-12,DATA INTEGRATION ANALYST,Data Analyst,VENUES NSW,NSW,Entertainment Providers,Full-time,Not Applicable,1,0,0,0,0,0,0,0,0,NULL
+123,2026-11-10,DATA INTEGRATION ANALYST (MICROSOFT FABRIC),Data Analyst,CIPHER RECRUITMENT,NSW,Staffing and Recruiting,Full-time,Mid-Senior level,0,0,0,0,0,0,0,0,0,115000
+124,2026-11-05,DATA SCIENTIST,Data Scientist,THIESS,QLD,Mining,Full-time,Not Applicable,0,0,0,0,0,0,1,0,0,NULL
+125,2026-11-06,"DATA SCIENTIST | SENIOR ANALYST - MODEL, DATA, AND AI RISKS INTERNAL AUDIT",Data Scientist,MACQUARIE GROUP,NSW,Financial Services,Full-time,Not Applicable,0,0,0,0,0,0,1,0,1,NULL
+126,2026-11-05,"DATA SCIENTIST, MARKETING",Data Scientist,THE UNIVERSITY OF QUEENSLAND,QLD,Higher Education,Full-time,Not Applicable,0,0,1,0,0,0,1,0,1,NULL
+127,2026-10-29,DEMAND ANALYST,Other,HANES BRANDS AUSTRALASIA,VIC,Retail,Full-time,Not Applicable,0,0,0,0,0,0,0,0,0,NULL
+128,2026-11-06,DEMAND PLANNER,Other,MCPHERSON'S CONSUMER PRODUCTS,NSW,Retail Health and Personal Care Products and Retail Pharmacies,Full-time,Not Applicable,0,0,0,0,0,0,0,0,0,NULL
+129,2026-11-05,ESG QUANT ANALYST - STEWARDSHIP SPECIALIST,Other,ACADIAN ASSET MANAGEMENT,NSW,Financial Services,Full-time,Not Applicable,0,0,0,0,0,0,0,0,1,NULL
+130,2026-11-07,EXPERIMENTATION CAPABILITY LEAD,Other,WOOLWORTHS GROUP,NSW,Retail,Full-time,Not Applicable,0,0,0,0,0,0,0,0,0,NULL
+131,2026-10-29,EY-PARTHENON - SENIOR CONSULTANT - TRANSACTION ANALYTICS,Data Analyst,EY-PARTHENON,VIC,Business Consulting and Services,Full-time,Mid-Senior level,0,0,0,0,0,0,0,0,0,NULL
+132,2026-11-07,FIELD SERVICE OPERATIONS ANAYST,Other,EATON,NSW,"Appliances, Electrical, and Electronics Manufacturing",Full-time,Not Applicable,0,0,0,0,0,0,0,0,0,NULL
+133,2026-10-22,FINANCE ANALYST,Financial Analyst,ROYAL REHAB GROUP,NSW,Hospitals and Health Care,Full-time,Associate,0,0,0,0,1,0,0,0,0,NULL
+134,2026-11-05,FINANCE DATA & REPORTING SPECIALIST - GLOBAL,Other,SHARP & CARTER,QLD,Staffing and Recruiting,Full-time,Mid-Senior level,1,0,0,0,1,0,0,0,0,NULL
+135,2026-10-29,FINANCE DATA SPECIALIST,Other,MEGAPORT,QLD,"Technology, Information and Internet",Full-time,Mid-Senior level,0,0,0,0,1,0,0,0,0,NULL
+136,2026-10-22,FINANCIAL ANALYST,Financial Analyst,SHARP & CARTER,VIC,Staffing and Recruiting,Full-time,Mid-Senior level,0,0,0,0,0,0,0,0,0,NULL
+137,2026-11-05,FINANCIAL CRIME ANALYST,Financial Analyst,CUSCAL LIMITED,NSW,Financial Services,Full-time,Not Applicable,0,0,0,0,0,0,0,0,0,NULL
+138,2026-10-29,FINANCIAL CRIME OPERATIONS ANALYST,Operations Analyst,AUSTRALIANSUPER,VIC,Financial Services,Full-time,Not Applicable,0,0,0,0,0,0,0,0,1,NULL
+139,2026-10-29,FINANCIAL MARKET SURVEILLANCE DATA ANALYST,Financial Analyst,MACQUARIE GROUP,NSW,Financial Services,Full-time,Not Applicable,0,0,0,0,0,0,0,0,0,NULL
+140,2026-11-12,FINANCIAL PERFORMANCE & REPORTING ANALYST,Operations Analyst,QIC,QLD,Financial Services,Full-time,Not Applicable,0,0,0,0,0,0,0,0,0,NULL
+141,2026-10-29,FINANCIAL PLANNING ANALYST,Financial Analyst,CARDIOSCAN AOTEAROA,VIC,Medical and Diagnostic Laboratories,Full-time,Not Applicable,0,0,0,0,0,0,0,0,0,NULL
+142,2026-10-29,FLEET OFFICER,Other,MACKAY REGIONAL COUNCIL,QLD,Government Administration,Full-time,Not Applicable,0,0,0,0,1,0,0,0,0,NULL
+143,2026-10-29,FP&A ANALYST,Other,CORE TALENT,WA,"Transportation, Logistics, Supply Chain and Storage",Full-time,Not Applicable,0,0,0,0,0,0,0,0,0,NULL
+144,2026-10-22,FP&A ANALYST,Other,TREASURY WINE ESTATES,VIC,"Wineries, Retail Luxury Goods and Jewelry, and Wholesale Luxury Goods and Jewelry",Full-time,Associate,0,0,0,0,0,0,0,0,0,NULL
+145,2026-11-05,FP&A ANALYST / COMMERCIAL ANALYST,Financial Analyst,LAW PARTNERS INJURY LAWYERS,NSW,Legal Services,Full-time,Not Applicable,0,0,0,0,0,0,0,0,0,NULL
+146,2026-11-05,GEOSPATIAL OFFICER,Other,GREAT BARRIER REEF MARINE PARK AUTHORITY,QLD,Environmental Services,Full-time,Not Applicable,0,0,0,0,0,0,0,0,0,92831
+147,2026-10-29,GRADUATES | DEFENCE EXPERIMENTATION & ANALYSIS,Other,ATTURRA,ACT,IT Services and IT Consulting,Temporary,Not Applicable,0,0,0,0,0,0,0,0,0,NULL
+148,2026-10-29,"HEAD OF MARKETING DATA AND ANALYTICS- SOUTH BANK, QLD",Marketing Analyst,FLIGHT CENTRE TRAVEL GROUP,QLD,Travel Arrangements,Full-time,Not Applicable,0,0,0,0,0,0,0,0,0,NULL
+149,2026-11-05,"HEAD OF PROCESS, PERFORMANCE & ANALYTICS",Operations Analyst,QIC,QLD,Financial Services,Full-time,Not Applicable,0,0,0,0,0,0,0,0,0,NULL
+150,2026-11-05,INSIGHTS ANALYST,Data Analyst,PARAMOUNT AUSTRALIA & NEW ZEALAND,NSW,Broadcast Media Production and Distribution,Full-time,Not Applicable,0,0,0,0,0,0,0,0,0,NULL
+151,2026-11-06,JUNIOR COMPLIANCE SURVEILLANCE OFFICER,Other,OPTIVER,NSW,Financial Services,Full-time,Not Applicable,0,0,0,0,0,0,0,0,0,NULL
+152,2026-11-05,LEAD ANALYST - PRODUCT ANALYTICS,Data Analyst,QUANTIUM,NSW,"Construction, Software Development, and IT Services and IT Consulting",Full-time,Mid-Senior level,1,1,0,0,0,0,0,0,1,NULL
+153,2026-10-22,"MANAGEMENT ACCOUNTANT (DATA ANALYTICS) - MINTO, SOUTH-WEST SYDNEY",Data Analyst,REDOX LTD,NSW,IT Services and IT Consulting,Contract,Not Applicable,0,0,0,0,0,0,0,0,0,NULL
+154,2026-11-05,"MANAGER, SCAMS INFORMATION ENRICHMENT & ANALYTICS",Data Analyst,AUSTRALIAN FINANCIAL COMPLAINTS AUTHORITY,NSW,Financial Services,Full-time,Mid-Senior level,0,0,0,0,1,0,0,0,1,NULL
+155,2026-11-05,"MANAGER, SCAMS INFORMATION ENRICHMENT & ANALYTICS",Data Analyst,AUSTRALIAN FINANCIAL COMPLAINTS AUTHORITY,VIC,Financial Services,Full-time,Mid-Senior level,0,0,0,0,1,0,0,0,1,NULL
+156,2026-11-05,MARKETING SCIENCE ANALYST,Marketing Analyst,ANALYTIC PARTNERS,NSW,"Business Consulting and Services, Market Research, and Advertising Services",Full-time,Not Applicable,0,0,0,0,0,0,0,0,0,NULL
+157,2026-10-29,MERCHANDISE TRADE PLANNER,Other,LORNA JANE,QLD,Retail,Full-time,Not Applicable,0,0,0,0,0,0,0,0,0,NULL
+158,2026-11-06,NATURAL PERILS & GEOSPATIAL ANALYST,Other,AUTO & GENERAL AUSTRALIA,NSW,Insurance,Full-time,Not Applicable,0,0,0,0,0,0,0,0,0,NULL
+159,2026-11-11,OPERATIONS COORDINATOR - SUPPLY CHAIN,Other,HANES BRANDS AUSTRALASIA,NSW,Retail,Full-time,Not Applicable,0,0,0,0,0,0,0,0,0,NULL
+160,2026-11-11,ORACLE AI DATA PLATFORM AND REPORTING LEAD,Other,CAPGEMINI,NSW,IT Services and IT Consulting,Full-time,Mid-Senior level,0,0,0,0,0,0,0,0,0,NULL
+161,2026-10-29,PAYROLL ANALYST,Other,SHARP & CARTER,NSW,Staffing and Recruiting,Temporary,Mid-Senior level,0,0,0,0,0,0,0,0,0,NULL
+162,2026-11-06,PEOPLE & CULTURE ANALYST,Other,SAAB AUSTRALIA,SA,"Defense and Space Manufacturing, Security and Investigations, and IT Services and IT Consulting",Full-time,Not Applicable,0,0,0,0,0,0,0,0,0,NULL
+163,2026-10-29,PEOPLE AND SYSTEMS ANALYST,Other,CULTURE AMP,NSW,Software Development,Full-time,Mid-Senior level,0,0,0,0,0,0,0,0,0,NULL
+164,2026-10-22,PEOPLE DATA & INSIGHTS ANALYST - P&C,Data Analyst,TECHNOLOGYONE,QLD,Software Development,Full-time,Associate,0,0,0,0,0,0,0,0,1,NULL
+165,2026-11-11,PERFORMANCE AND SYSTEMS IMPROVEMENT ANALYST,Operations Analyst,COUNTRY FIRE AUTHORITY (CFA),VIC,Public Safety,Full-time,Not Applicable,0,0,0,0,0,0,0,0,0,NULL
+166,2026-11-11,PERFORMANCE REPORTING ANALYST,Operations Analyst,ALLIANZ PARTNERS,QLD,Financial Services and Insurance,Full-time,Not Applicable,1,0,0,0,0,0,0,0,1,NULL
+167,2026-11-05,PRICING ANALYST,Financial Analyst,IAG,NSW,Insurance,Full-time,Not Applicable,0,0,0,0,0,0,0,0,0,NULL
+168,2026-11-12,PRICING MANAGER,Other,PETSTOCK GROUP,VIC,Retail,Full-time,Not Applicable,0,0,0,0,0,0,0,0,0,NULL
+169,2026-10-12,"PRINCIPAL - TECHNICAL BUSINESS ANALYST, DATA PRODUCTS & PLATFORMS",Business Analyst,SIMPLE MACHINES,NSW,Non-profit Organizations and Primary and Secondary Education,Full-time,Not Applicable,1,0,0,0,0,0,0,0,0,NULL
+170,2026-11-11,PRINCIPAL BUSINESS INTELLIGENCE ANALYST,Business Analyst,"DEPARTMENT OF EDUCATION, WESTERN AUSTRALIA",WA,Education Administration Programs,Full-time,Not Applicable,0,0,0,0,0,0,0,0,0,NULL
+171,2026-11-05,QR047 - QUALITY ADMINISTRATIVE ASSISTANT,Other,CUMMINS ASIA PACIFIC,VIC,Manufacturing,Full-time,Not Applicable,0,0,0,0,0,0,0,0,0,NULL
+172,2026-11-06,QUANTITATIVE ANALYST,Other,NETWEALTH - SEE WEALTH DIFFERENTLY (ASX:NWL),VIC,Financial Services,Full-time,Not Applicable,0,0,0,0,0,0,0,0,0,NULL
+173,2026-11-05,RAIL OPERATIONS MODELLING OFFICER,Other,METRO TRAINS MELBOURNE,VIC,Rail Transportation,Full-time,Not Applicable,0,0,0,0,0,0,0,0,0,NULL
+174,2026-10-29,REPORTING SPECIALIST,Other,KINETIC IT,ACT,IT Services and IT Consulting,Full-time,Not Applicable,0,0,0,0,1,0,0,0,0,NULL
+175,2026-10-29,REPORTING SPECIALIST,Other,KINETIC IT,NSW,IT Services and IT Consulting,Full-time,Not Applicable,0,0,0,0,1,0,0,0,0,NULL
+176,2026-10-29,"RESEARCH ASSOCIATE, RESEARCH",Other,CITIC SECURITIES,NSW,Financial Services,Full-time,Entry level,0,0,0,0,0,0,0,0,0,NULL
+177,2026-11-05,RETAIL PROPERTY OPERATIONS ANALYST,Operations Analyst,VICINITY CENTRES,VIC,Real Estate,Full-time,Not Applicable,0,0,0,0,0,0,0,0,0,NULL
+178,2026-10-22,REVENUE GROWTH SPECIALIST,Other,RED BULL,NSW,Food and Beverage Services,Full-time,Mid-Senior level,0,0,0,0,0,0,0,0,0,NULL
+179,2026-11-11,"RISK CONTROL ANALYST, ATO & RISK STRATEGY",Risk Analyst,BINANCE,Unknown,"Technology, Information and Internet",Full-time,Mid-Senior level,0,0,0,0,0,0,0,0,1,NULL
+180,2026-11-12,SALES ENABLEMENT DATA & AUTOMATION SPECIALIST,Other,MSD AUSTRALIA & NEW ZEALAND,NSW,"Biotechnology Research, Pharmaceutical Manufacturing, and Veterinary Services",Full-time,Not Applicable,0,0,0,0,1,0,0,0,0,NULL
+181,2026-11-07,"SALES OPERATIONS ANALYST, AWS ENTERPRISE SUPPORT STRATEGY & OPERATIONS (ESSO)",Operations Analyst,AMAZON WEB SERVICES (AWS),NSW,IT Services and IT Consulting,Full-time,Not Applicable,1,0,0,0,0,0,0,0,1,NULL
+182,2026-08-12,SENIOR / LEAD ANALYTICS ENGINEER,Data Analyst,INSIGHT TIMER,QLD,IT Services and IT Consulting,Full-time,Mid-Senior level,0,0,0,0,0,0,0,0,0,NULL
+183,2026-08-12,SENIOR / LEAD ANALYTICS ENGINEER,Data Analyst,INSIGHT TIMER,Unknown,IT Services and IT Consulting,Full-time,Mid-Senior level,0,0,0,0,0,0,0,0,0,NULL
+184,2026-11-05,SENIOR ADVISOR (NETWORK/DATA),Other,HAYS,QLD,"Technology, Information and Internet",Full-time,Not Applicable,0,0,0,0,0,0,0,0,0,NULL
+185,2026-11-10,SENIOR ANALYST // DATA & PERFORMANCE,Operations Analyst,TALENT,NSW,Housing Programs,Contract,Mid-Senior level,0,0,0,0,0,0,0,0,0,143260
+186,2026-11-10,"SENIOR ANALYST, FINANCIAL CRIME CHANGE, SYSTEMS & DATA",Other,BOQ GROUP,NSW,Financial Services,Full-time,Not Applicable,1,1,0,0,1,0,0,0,0,NULL
+187,2026-11-07,SENIOR ANALYTICS ENGINEER,Data Analyst,KRAKEN,VIC,"Technology, Information and Internet",Full-time,Not Applicable,0,0,0,0,0,0,0,0,0,NULL
+188,2026-11-07,"SENIOR ASSOCIATE, STRATEGY & OPERATIONS - INTEGRITY (INTERNATIONAL)",Other,DOORDASH,VIC,Software Development,Full-time,Not Applicable,0,0,0,0,0,0,0,0,0,NULL
+189,2026-11-05,SENIOR BUSINESS ANALYST,Business Analyst,DEPARTMENT OF TRANSPORT AND PLANNING,VIC,Government Administration,Full-time,Not Applicable,0,0,0,1,0,0,0,0,0,NULL
+190,2026-11-10,SENIOR BUSINESS ANALYST,Business Analyst,MACQUARIE GROUP,NSW,Financial Services,Full-time,Not Applicable,0,0,0,0,0,0,0,0,0,NULL
+191,2026-10-29,SENIOR BUSINESS ANALYST - DATA GOVERNANCE,Data Governance & Quality,THE UNIVERSITY OF QUEENSLAND,QLD,Higher Education,Full-time,Not Applicable,0,0,0,0,0,0,0,0,0,NULL
+192,2026-11-09,"SENIOR BUSINESS ANALYST, HR DATA PROCESSES",Business Analyst,UNSW,NSW,Higher Education,Full-time,Not Applicable,0,0,0,0,0,0,0,0,0,NULL
+193,2026-10-22,SENIOR BUSINESS INTELLIGENCE DEVELOPER,BI Analyst/Developer,PETSTOCK GROUP,VIC,Retail,Full-time,Not Applicable,0,0,0,0,0,0,0,0,0,NULL
+194,2026-11-05,SENIOR CONSULTANT - DATA & ANALYTICS,Data Analyst,DATACOM,QLD,Information Technology & Services,Full-time,Not Applicable,0,0,0,0,0,0,0,0,0,NULL
+195,2026-11-07,"SENIOR CONSULTANT, DATA ANALYTICS, HEALTHCARE",Data Analyst,FTI CONSULTING,NSW,Business Consulting and Services,Full-time,Not Applicable,1,1,0,0,1,1,1,0,1,NULL
+196,2026-11-08,SENIOR DATA ANALYST,Data Analyst,EY,NSW,Professional Services,Full-time,Mid-Senior level,0,0,0,0,0,0,0,0,0,NULL
+197,2026-11-08,SENIOR DATA ANALYST,Data Analyst,EY,QLD,Professional Services,Full-time,Mid-Senior level,0,0,0,0,0,0,0,0,0,NULL
+198,2026-11-08,SENIOR DATA ANALYST,Data Analyst,EY,SA,Professional Services,Full-time,Mid-Senior level,0,0,0,0,0,0,0,0,0,NULL
+199,2026-11-08,SENIOR DATA ANALYST,Data Analyst,EY,VIC,Professional Services,Full-time,Mid-Senior level,0,0,0,0,0,0,0,0,0,NULL
+200,2026-10-22,SENIOR DATA ANALYST,Data Analyst,TEACHERS MUTUAL BANK LIMITED,NSW,Banking,Contract,Mid-Senior level,0,0,0,0,0,0,0,0,0,NULL
+201,2026-11-12,SENIOR DATA ANALYST // REMEDIATION,Data Analyst,TALENT,NSW,Banking,Full-time,Not Applicable,1,0,0,0,0,0,0,0,0,NULL
+202,2026-11-05,SENIOR DATA GOVERNANCE ANALYST,Data Governance & Quality,SIGMA HEALTHCARE,VIC,"Retail, Hospitals and Health Care, and Retail Pharmacies",Full-time,Mid-Senior level,0,0,0,0,0,0,0,0,1,NULL
+203,2026-10-29,SENIOR DATA SCIENTIST,Data Scientist,LINKTREE,VIC,Software Development,Full-time,Not Applicable,0,0,0,0,0,0,0,0,0,NULL
+204,2026-11-05,SENIOR FINOPS ANALYST,Other,ATLASSIAN,NSW,Software Development,Full-time,Mid-Senior level,0,0,0,0,0,0,0,0,1,NULL
+205,2026-11-10,SENIOR FP&A ANALYST,Other,ALLIANCE AIRLINES,QLD,Airlines and Aviation,Full-time,Not Applicable,0,0,0,0,0,0,0,0,0,NULL
+206,2026-10-15,SENIOR FP&A ANALYST,Other,BMD GROUP,QLD,Civil Engineering,Full-time,Mid-Senior level,0,0,0,0,0,0,0,0,0,NULL
+207,2026-11-06,SENIOR GIS ANALYST/SPATIAL ANALYST,Other,HAYS,NSW,Staffing and Recruiting,Contract,Mid-Senior level,0,0,0,0,0,0,0,0,0,NULL
+208,2026-10-22,SENIOR MANAGER ANALYTICS & DECISION INTELLIGENCE,Data Analyst,RAA,SA,Civic and Social Organizations,Full-time,Not Applicable,0,0,0,0,0,0,0,0,0,NULL
+209,2026-10-12,SENIOR MARKETING GROWTH ANALYST,Marketing Analyst,PREZZEE,NSW,Financial Services,Full-time,Mid-Senior level,1,0,0,0,0,0,0,0,0,NULL
+210,2026-11-05,SENIOR MODEL ASSUMPTION ANALYST,Other,TRANSPORT FOR NSW,NSW,Truck Transportation,Full-time,Not Applicable,0,0,0,0,0,0,0,0,0,NULL
+211,2026-11-06,SENIOR NETWORK DATA ANALYST / NETWORK PERFORMANCE ANALYTICS SPECIALIST,Operations Analyst,AMPSTEK,NSW,IT Services and IT Consulting,Contract,Mid-Senior level,0,0,0,0,0,0,0,0,0,NULL
+212,2026-11-07,SENIOR PRICING ANALYST - APAC,Financial Analyst,BD,NSW,"Biotechnology Research, Medical Equipment Manufacturing, and Research Services",Full-time,Not Applicable,0,0,0,0,0,0,0,0,0,NULL
+213,2026-11-08,SENIOR REPORTING CONSULTANT – HIGHER EDUCATION,Other,WORKDAY,NSW,Software Development,Full-time,Not Applicable,0,0,0,0,0,0,0,0,1,NULL
+214,2026-11-06,SENIOR STRATEGY AND BUSINESS ANALYST,Business Analyst,WILMAR SUGAR AUSTRALIA LIMITED,QLD,Food and Beverage Manufacturing,Full-time,Not Applicable,0,0,0,0,0,0,0,0,0,NULL
+215,2026-11-05,SERVICE INTEGRITY ANALYST,Other,NIELSEN,NSW,Broadcast Media Production and Distribution,Full-time,Not Applicable,0,0,0,0,0,0,0,0,0,NULL
+216,2026-10-29,SIGNALS ANALYST 24X7,Other,LEIDOS AUSTRALIA,NT,Government Administration and IT Services and IT Consulting,Full-time,Not Applicable,0,0,0,0,0,0,0,0,0,NULL
+217,2026-10-29,SOFTWARE DEVELOPER AND DATA ENGINEER,Data Engineer,PINNACLE INVESTMENT MANAGEMENT GROUP,QLD,Investment Management,Full-time,Not Applicable,1,1,0,0,0,0,0,0,0,NULL
+218,2026-10-29,SPECIALIST MSG ASSET HEALTH DEVELOPER | AUSTRALIA,Other,BHP,QLD,Mining,Full-time,Mid-Senior level,0,1,0,0,0,0,0,0,0,NULL
+219,2026-10-29,SPECIALIST MSG ASSET HEALTH DEVELOPER | AUSTRALIA,Other,BHP,VIC,Mining,Full-time,Mid-Senior level,0,1,0,0,0,0,0,0,0,NULL
+220,2026-11-05,SUPPLY CHAIN INTELLIGENCE ANALYST,Operations Analyst,BABCOCK AUSTRALIA & NEW ZEALAND,WA,Defense & Space,Full-time,Not Applicable,0,0,0,0,0,0,0,0,0,NULL
+221,2026-10-12,SYSTEMS COORDINATOR,Other,ACKNOWLEDGE EDUCATION,QLD,Software Development and IT Services and IT Consulting,Full-time,Mid-Senior level,0,0,0,0,0,0,0,0,0,NULL
+222,2026-08-12,TECHNICAL BUSINESS ANALYST,Business Analyst,GRIDSIGHT,VIC,Utilities,Full-time,Not Applicable,0,0,0,0,0,0,0,0,0,NULL
+223,2026-11-05,TRADE PARTNER INSIGHTS SPECIALIST,Other,ENDEAVOUR GROUP,NSW,Retail,Full-time,Not Applicable,0,0,0,0,0,0,0,0,0,NULL
+224,2026-11-05,TRADE PARTNER INSIGHTS SPECIALIST,Other,ENDEAVOUR GROUP,VIC,Retail,Full-time,Not Applicable,0,0,0,0,0,0,0,0,0,NULL
+225,2026-11-05,"TRANSACTION ANALYTICS, MELBOURNE & SYDNEY (ALL LEVELS CONSIDERED!)",Data Analyst,ALVAREZ & MARSAL,NSW,Business Consulting and Services,Full-time,Not Applicable,0,0,0,0,0,0,0,0,0,NULL
+226,2026-11-07,WFO WORKFORCE PLANNER,Operations Analyst,EML GROUP,NSW,Insurance,Full-time,Not Applicable,0,0,0,0,0,0,0,0,0,NULL
+227,2026-11-05,WORKFORCE PLANNING DATA SPECIALIST,Operations Analyst,SEDGMAN,QLD,Mining,Full-time,Not Applicable,0,0,0,0,1,0,0,0,0,NULL
+228,2026-11-06,WORKPLACE INTELLIGENCE LEAD,Other,WESTPAC GROUP,NSW,"Banking, Financial Services, and Investment Banking",Full-time,Not Applicable,0,0,0,0,0,0,0,0,0,NULL
