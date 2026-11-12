@@ -1,12 +1,14 @@
 # LAST MODIFIED: 9/11/2026
 
+import time 
 import os # Access environmental variables containing the Azure configuration. 
 import struct # For Azure authentication purposes. 
 import pyodbc # Connects Python to SQL Server and executes SQL queries. 
 from azure.identity import ManagedIdentityCredential # Authenticates the application using an Aure Managed Identity. 
 
-# This function authenticates our application using an Azure Managed Identity, in order to connect to an Azure SQL database in a logical server
-# specified by the environmental variables.  
+# This function authenticates our application using an Azure Managed Identity, in order to connect to an 
+# Azure SQL database in a logical server specified by the environmental variables.  
+
 SQL_COPT_SS_ACCESS_TOKEN = 1256
 def connect_database():
     server = os.environ["AZURE_SQL_SERVER"]
@@ -18,10 +20,12 @@ def connect_database():
     token = credential.get_token(
         "https://database.windows.net/.default"
     ).token
+
     token_bytes = token.encode("utf-16-le")
     token_struct = struct.pack(
         "<I", len(token_bytes)
     ) + token_bytes
+
     connection_string = (
         "DRIVER={ODBC Driver 18 for SQL Server};"
         f"SERVER=tcp:{server},1433;"
@@ -38,6 +42,30 @@ def connect_database():
         }
     )
 
+# Add retry logic to handle transient connection failures.
+def connect_database_with_retry(max_retries=5):
+
+    for attempt in range(max_retries):
+        try:
+            print(
+                f"Connecting to Azure SQL "
+                f"(attempt {attempt + 1}/{max_retries})"
+            )
+
+            return connect_database()
+
+        except pyodbc.OperationalError as e:
+
+            if attempt == max_retries - 1:
+                raise
+
+            wait_time = min(5 * (2 ** attempt), 60)
+
+            print(f"Database connection failed: {e}")
+            print(f"Retrying in {wait_time} seconds...")
+
+            time.sleep(wait_time)
+
 # Load the jobs into our staging table. 
 def save_jobs(jobs):
 
@@ -45,7 +73,7 @@ def save_jobs(jobs):
         print("No jobs to save.")
         return
 
-    connection = connect_database()
+    connection = connect_database_with_retry()
 
     try:
         cursor = connection.cursor() # Used to execute SQL statements and retrieve query results. 
