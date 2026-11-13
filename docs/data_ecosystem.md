@@ -2,7 +2,7 @@
 
 The following diagram shows the architecture and infrastructure of the project. It illustrates its end-to-end ETL (extract, transform, and load) pipeline and contains all of its major components. 
 
-!(data_ecosystem.png)
+![](data_ecosystem.png)
 
 We describe the process and some of methodology hereafter. 
 
