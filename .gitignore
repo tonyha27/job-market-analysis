@@ -4,4 +4,3 @@ __pycache__/
 .vscode/
 sql/master_script.sql
 testing/
-docs/data_ecosystem.png
