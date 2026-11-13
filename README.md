@@ -1,6 +1,6 @@
 # What is this project?
 
-This project provides information on the job market for roles in the data or analytics professions, displayed in a Power BI report. It provides inisights for job seeker in this field, such as how big the market is, where the jobs are located, and what skills are in demand. The image below is the dashboard containing the results. 
+This project provides information on the job market for roles in the data or analytics professions, displayed in a Power BI report. It helps job seekers in this field to better understand the job market, by answering questions such as how big the market is, where the jobs are located, and what skills are in demand. It uses a fully automated ETL pipeline to collect, transform, and load data. The image below is the dashboard containing the results. 
 
 ![](/pictures/dashboard.png)
 
